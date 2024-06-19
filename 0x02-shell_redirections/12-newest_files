@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt | grep -v '^total' | grep -v '^d'| cut -f ' ' -f 9-
+ls -lt | grep -v '^total' | grep -v '^d'| cut -d ' ' -f 9-
