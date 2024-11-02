@@ -2,7 +2,7 @@
 # Prints message 10 times but using while this time
 
 count = 1
-while [$count -le 10]
+while [ $count -le 10 ]
 do
 	echo "Best School"
 	count= $((count + 1))
