@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# This script displays the content of the current directory in a list format,
+# showing only the part of each filename after the first dash
+
+for file in *; do
+    if [[ -f $file && $file != .* ]]; then
+        # Remove everything before and including the first dash, if it exists
+        echo "${file#*-}"
+    fi
+done
