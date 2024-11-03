@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script displays a list of all currently running processes with a process tree
+
+ps auxf
