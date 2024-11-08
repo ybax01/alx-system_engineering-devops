@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Displays listening sockets and pid and othe info
 
-netstat -alp
+netstat -al
