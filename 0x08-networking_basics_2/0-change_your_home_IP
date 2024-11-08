@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# This script configures localhost to resolve to 127.0.0.2 and facebook.com to resolve to 8.8.8.8.
+
+# Backup the original /etc/hosts file
+cp /etc/hosts /etc/hosts.bak
+
+# Add or modify the entries in /etc/hosts
+{
+    echo "127.0.0.2 localhost"
+    echo "8.8.8.8 facebook.com"
+} >> /etc/hosts
+
+echo "Configuration updated. localhost resolves to 127.0.0.2 and facebook.com resolves to 8.8.8.8."
+
+# Confirm the changes
+echo -e "\nCurrent /etc/hosts file content:"
+cat /etc/hosts
