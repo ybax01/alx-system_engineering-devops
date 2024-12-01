@@ -1,6 +1,8 @@
 https://imgur.com/a/rrGxrlm
 
 
+![image](https://i.imgur.com/EwGc2XU.png)
+
 Specifics about this infrastructure:
 
 
