@@ -1,5 +1,7 @@
 https://imgur.com/a/lq1gayp
 
+![image](https://i.imgur.com/Z2dJAKC.png)
+
 
 Specifics about this infrastructure:
 
