@@ -30,4 +30,11 @@ TCP/IP is what's used for this
 --------
 The issues are with this infrastructure:
 
+-SPOF
+Mayn point of failure that can make the whole system malfuntion
 
+-Downtime when maintenance needed (like deploying new code web server needs to be restarted)
+Only one server exists, so when an element needs maintenance, it has to be shut down, so downtime is necessary
+
+-Cannot scale if too much incoming traffic
+There is only one server so it can be problematic when it runs out of resources
