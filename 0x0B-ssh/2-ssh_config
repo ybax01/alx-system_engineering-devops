@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# configuring the client
+
+Host 806590-web-01
+    HostName 54.237.2.207
+    User ubuntu
+    IdentityFile ~/.ssh/school
+    PasswordAuthentication no
