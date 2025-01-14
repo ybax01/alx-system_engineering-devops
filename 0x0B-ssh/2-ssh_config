@@ -2,7 +2,7 @@
 # configuring the client
 
 Host 806590-web-01
-    HostName 54.237.2.207
+    HostName 54.162.100.128
     User ubuntu
     IdentityFile ~/.ssh/school
     PasswordAuthentication no
