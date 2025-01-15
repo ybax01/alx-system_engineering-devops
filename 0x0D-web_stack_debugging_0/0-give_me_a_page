@@ -1,1 +1,4 @@
+#!/usr/bin/env bash
+# makes sure apache is running
+
 sudo service apache2 start
