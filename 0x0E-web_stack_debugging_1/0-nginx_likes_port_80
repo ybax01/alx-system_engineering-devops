@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Task 0: fixing problem
+
+sudo apt-get -y update
+sudo apt-get -y install nginx
+
+sudo ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+sudo service nginx restart
